@@ -58,7 +58,7 @@
 								<input type="text" class="form-control" id="reserve_uniqueID">
 							</div>
 
-							<button type="submit" class="btn btn-primary submit">Submit</button>
+							<button type="submit" class="btn btn-primary submit"id= "addButton">Submit</button>
 						</form>
 
 					</div>
@@ -81,7 +81,7 @@
 <script type="text/javascript">
 
 	
-	$(".submit").on("click", function(){
+	$("#addButton").on("click", function(){
 
 		// Here we grab the form elements
 		var newReservation = {
@@ -121,7 +121,7 @@
 			$('#reserve_email').val("");
 			$('#reserve_uniqueID').val("");
 
-	    });
+	    });\\
 
 return false;
 
